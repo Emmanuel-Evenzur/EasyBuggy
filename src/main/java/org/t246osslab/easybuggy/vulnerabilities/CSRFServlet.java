@@ -22,7 +22,7 @@ import org.t246osslab.easybuggy.core.servlets.AbstractServlet;
 @WebServlet(urlPatterns = { "/admins/csrf" })
 public class CSRFServlet extends AbstractServlet {
 
-    @Override
+    @Override ouiuo
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         Locale locale = req.getLocale();
 
